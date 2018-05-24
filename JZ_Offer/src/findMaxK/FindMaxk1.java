@@ -50,7 +50,8 @@ public class FindMaxk1 {
 	        nums[n2] = tmp;
 	    }
 	    public static void main(String[] args) {
-			int []nums={4,7,2,1,5,8,3};
+		//	int []nums={4,7,2,1,5,8,3};
+			int[] nums={19,17,17,19};
 			System.out.println(findKthLargest(nums, 3));
 		}
 }
